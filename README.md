@@ -5,6 +5,9 @@ Our NN will have a simple two-layer architecture.
 - A hidden layer a[1] will have 10 units with ReLU activation 
 - and finally, our output layer a[2] will have 10 units corresponding to the ten-digit classes with softmax activation.
 
+## Framework for solution:
+Used NumPy and complex mathematics for digit classification.
+
 ## FORWARD PROPAGATION:
 
 Z[1]=W[1]X+b[1]
@@ -89,3 +92,8 @@ dW[1]
 
 dB[1]
  : 10 x 1
+
+## Conclusion and Test result:
+We see that our model has an accuracy of around 85% on the training set. 
+This means that whenever a number from the MNIST data set is fed to out NN, the chance of it predicting the number correctly is 85%.
+
